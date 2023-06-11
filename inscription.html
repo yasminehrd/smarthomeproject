@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> inscription </title> 
+
+        <link rel="stylesheet" href="inscription.css">
+        <style >
+            input::placeholder {
+                color: white;
+            }
+        </style>
+    </head>
+<body>  
+    <form>
+        <fieldset>
+    <legend> <h1><b> inscription </b> </h1></legend>
+    <div class="detail"> 
+    <label for="txt"></label>
+    <input  id="txt" type="user name" placeholder="Nom d'utilisateur" required>
+</div>
+
+<div class="detail">
+    <label for="@"></label>
+    <input id="@"type="Email" placeholder="Email" required>
+</div> 
+
+<div class="detail">
+    <label for="tel"></label>
+    <input id="tel" type="number"  placeholder="Numero de telephone" required>
+</div>
+
+<div class="detail">
+    <label for="mdp"></label>
+    <input id="mdp" type="Password"placeholder="Mot de passe" required>
+</div> 
+<input type="submit" name="submit" value="S'inscrire" class="signupBtn">
+    
+    </fieldset>
+   </form>
+</body>
+</html>

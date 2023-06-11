@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000c5;
+    background-size: cover;
+    background-position: center;
+}
+
+span{
+    color: white;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+
+}
+.card{
+    height: 360px;
+    width: 335px;
+    padding: 20px 15px;
+    background: #1f1d1d9c;
+    border-radius: 20px; 
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box .card img {
+    width: 50px;
+    border-radius: 20%;
+    margin: 20px 30px;
+    
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #00bff9;
+
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .boutton{
+    background-color: #00bff9 ;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 3px 15px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+.card .boutton:hover{
+    background-color: transparent;
+    border: 2px solid #00bff9;
+    cursor: pointer;
+}
+button{
+    background-color: #00bff9 ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #00bff9;
+    cursor: pointer;
+}
+     

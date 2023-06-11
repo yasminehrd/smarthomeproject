@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+h2{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:  #00bff9;
+    transition: .4s;
+}
+.signupBtn{
+    background-color: #00bff9 ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.signupBtn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.newlatter{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newlatter input {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}
+span{
+    color: #00bff9;
+}
+
+.loginBtn{
+    background-color: #00bff9 ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+.loginBtn:hover{
+    transform: scale(1.2);
+}
+
